@@ -19,6 +19,15 @@
 		8F066FB61636C9FA001E461E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F066FB41636C9FA001E461E /* MainStoryboard.storyboard */; };
 		8F066FB91636C9FA001E461E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F066FB81636C9FA001E461E /* MasterViewController.m */; };
 		8F066FBC1636C9FA001E461E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F066FBB1636C9FA001E461E /* DetailViewController.m */; };
+		8F066FCB1636D4B8001E461E /* p1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F066FC31636D4B8001E461E /* p1.jpg */; };
+		8F066FCD1636D4B8001E461E /* p6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F066FC51636D4B8001E461E /* p6.jpg */; };
+		8F066FCE1636D4B8001E461E /* p8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F066FC61636D4B8001E461E /* p8.jpg */; };
+		8F066FCF1636D4B8001E461E /* p5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F066FC71636D4B8001E461E /* p5.jpg */; };
+		8F066FD01636D4B8001E461E /* p7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F066FC81636D4B8001E461E /* p7.jpg */; };
+		8F066FD21636D4B8001E461E /* p4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F066FCA1636D4B8001E461E /* p4.jpg */; };
+		8F066FD51636DCB9001E461E /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F066FD41636DCB9001E461E /* CollectionCell.m */; };
+		8F29A4A11638250400E0D752 /* p2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F29A4A01638250400E0D752 /* p2.jpg */; };
+		8F29A4A71638266900E0D752 /* p3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F29A4A61638266900E0D752 /* p3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,16 @@
 		8F066FB81636C9FA001E461E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		8F066FBA1636C9FA001E461E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8F066FBB1636C9FA001E461E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8F066FC31636D4B8001E461E /* p1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpg; sourceTree = "<group>"; };
+		8F066FC51636D4B8001E461E /* p6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p6.jpg; sourceTree = "<group>"; };
+		8F066FC61636D4B8001E461E /* p8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p8.jpg; sourceTree = "<group>"; };
+		8F066FC71636D4B8001E461E /* p5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p5.jpg; sourceTree = "<group>"; };
+		8F066FC81636D4B8001E461E /* p7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p7.jpg; sourceTree = "<group>"; };
+		8F066FCA1636D4B8001E461E /* p4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p4.jpg; sourceTree = "<group>"; };
+		8F066FD31636DCB9001E461E /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		8F066FD41636DCB9001E461E /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		8F29A4A01638250400E0D752 /* p2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpg; sourceTree = "<group>"; };
+		8F29A4A61638266900E0D752 /* p3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +105,7 @@
 		8F066FA21636C9FA001E461E /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8F066FC21636D4A5001E461E /* photos */,
 				8F066FAB1636C9FA001E461E /* AppDelegate.h */,
 				8F066FAC1636C9FA001E461E /* AppDelegate.m */,
 				8F066FB41636C9FA001E461E /* MainStoryboard.storyboard */,
@@ -94,6 +114,8 @@
 				8F066FBA1636C9FA001E461E /* DetailViewController.h */,
 				8F066FBB1636C9FA001E461E /* DetailViewController.m */,
 				8F066FA31636C9FA001E461E /* Supporting Files */,
+				8F066FD31636DCB9001E461E /* CollectionCell.h */,
+				8F066FD41636DCB9001E461E /* CollectionCell.m */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -110,6 +132,21 @@
 				8F066FB21636C9FA001E461E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F066FC21636D4A5001E461E /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				8F066FC31636D4B8001E461E /* p1.jpg */,
+				8F29A4A01638250400E0D752 /* p2.jpg */,
+				8F29A4A61638266900E0D752 /* p3.jpg */,
+				8F066FCA1636D4B8001E461E /* p4.jpg */,
+				8F066FC71636D4B8001E461E /* p5.jpg */,
+				8F066FC51636D4B8001E461E /* p6.jpg */,
+				8F066FC81636D4B8001E461E /* p7.jpg */,
+				8F066FC61636D4B8001E461E /* p8.jpg */,
+			);
+			name = photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +205,14 @@
 				8F066FB11636C9FA001E461E /* Default@2x.png in Resources */,
 				8F066FB31636C9FA001E461E /* Default-568h@2x.png in Resources */,
 				8F066FB61636C9FA001E461E /* MainStoryboard.storyboard in Resources */,
+				8F066FCB1636D4B8001E461E /* p1.jpg in Resources */,
+				8F066FCD1636D4B8001E461E /* p6.jpg in Resources */,
+				8F066FCE1636D4B8001E461E /* p8.jpg in Resources */,
+				8F066FCF1636D4B8001E461E /* p5.jpg in Resources */,
+				8F066FD01636D4B8001E461E /* p7.jpg in Resources */,
+				8F066FD21636D4B8001E461E /* p4.jpg in Resources */,
+				8F29A4A11638250400E0D752 /* p2.jpg in Resources */,
+				8F29A4A71638266900E0D752 /* p3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +227,7 @@
 				8F066FAD1636C9FA001E461E /* AppDelegate.m in Sources */,
 				8F066FB91636C9FA001E461E /* MasterViewController.m in Sources */,
 				8F066FBC1636C9FA001E461E /* DetailViewController.m in Sources */,
+				8F066FD51636DCB9001E461E /* CollectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +344,7 @@
 				8F066FC11636C9FA001E461E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

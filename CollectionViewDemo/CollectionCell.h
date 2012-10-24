@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  CollectionCell.h
 //  CollectionViewDemo
 //
 //  Created by onoT on 2012/10/23.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UICollectionViewController
+@interface CollectionCell : UICollectionViewCell
 {
-
+    IBOutlet UIImageView *imageView;
 }
-
+- (void)setImage:(UIImage *)image;
 @end
